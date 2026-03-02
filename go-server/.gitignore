@@ -1,0 +1,62 @@
+# 環境變數檔案 (包含敏感資訊)
+.env
+.env.local
+.env.production
+.env.development
+
+# 編譯產出
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+main
+cmd/server/server
+cmd/server/main
+
+# 測試覆蓋率報告
+*.out
+coverage.txt
+coverage.html
+
+# Go 工作空間檔案
+go.work
+go.work.sum
+
+# IDE 設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日誌檔案
+*.log
+logs/
+
+# 臨時檔案
+*.tmp
+*.temp
+tmp/
+temp/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# SSH 金鑰
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.crt
+
+# 資料庫檔案
+*.db
+*.sqlite
+*.sqlite3
+
+# 備份檔案
+*.bak
+*.backup
